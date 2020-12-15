@@ -38,9 +38,9 @@ desB = np.sqrt(varB)
 
 #Get labels
 outputA = cv2.connectedComponentsWithStats(mascaraA,0,cv2.CV_32F)
-cantObjA = outputA[0] # Objects quantity
+cantObjA = outputA[0] 
 outputB = cv2.connectedComponentsWithStats(mascaraB,0,cv2.CV_32F)
-cantObjB = outputB[0] # Objects quantity
+cantObjB = outputB[0] 
 
 #Histograma
 dataA = I.flatten()
